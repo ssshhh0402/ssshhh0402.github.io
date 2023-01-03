@@ -81,7 +81,7 @@ theme_mode:   # [light|dark]
 img_cdn: 'https://chirpy-img.netlify.app'
 
 # the avatar on sidebar, support local or CORS resources
-avatar: 'https://pds.saramin.co.kr/company/logo/202008/25/qfm4xo_mt0m-1col4ry_logo.png'
+avatar: 'https://static.wanted.co.kr/images/company/23697/iyabvj2hlasitoee__1080_790.jpg'
 
 # boolean type, the global switch for ToC in posts.
 toc: true
