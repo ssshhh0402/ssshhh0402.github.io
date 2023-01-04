@@ -3,10 +3,8 @@ layout: page
 # The Home page layout
 ---
 
-<!-- {% assign pinned = site.posts | where: "pin", "true" %} -->
-{% assign pinned = site.posts %}
+{% assign pinned = site.posts | where: "pin", "true" %}
 {% assign default = site.posts | where_exp: "item", "item.pin != true and item.hidden != true" %}
-
 {% assign posts = "" | split: "" %}
 
 <!-- Get pinned posts -->
@@ -39,6 +37,7 @@ layout: page
   {% endfor %}
 {% endif %}
 
+{% assign posts = site.posts%}
 <div id="post-list">
 
 {% for post in posts %}
